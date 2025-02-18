@@ -10,6 +10,7 @@ header h1 {
     color: white;
 }
 
+
 div nav {
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +48,8 @@ body {
 
 main h2 {
     color: #004080;
+    text-align: center;
+
 }
 
 .para {
@@ -68,6 +71,7 @@ ul {
 ul li {
     margin-left: 20px; 
     padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 footer {
@@ -75,4 +79,72 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main form div {
+    background-color: #707070;
+    padding: 30px;
+    width: 70%;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 2px 2px silver;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input[type= "text"] {
+    background-color: lightyellow;
+    padding: 10px;
+    border: darkgray;
+    border: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 25%;
+}
+
+input[type= "password"]{
+    background-color: lightyellow;
+    padding: 10px;
+    border: darkgray;
+    border: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 25%;
+    
+}
+
+main form button{
+    background-color: #008000;
+    color: white;
+    padding: 8px;
+    border-radius: 10%;
+    border: none;
+    margin-top: 25px;
+    
+}
+
+main form button:hover{
+    background-color: #006600;
+}
+
+main form a{
+
+    color: #004080;
+    text-decoration: none;
+    
+}
+main form a:hover{
+    text-decoration: underline;
 }
